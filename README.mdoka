@@ -1,0 +1,60 @@
+# Lab 4b: Client-Side Scripting (JSON and jQuery)
+
+**Name:** Viineshya A/P Vijian
+**Matric No:** AI240138
+
+
+## 1. Introduction
+
+This repository contains the implementation of Lab 4b, which focuses on client-side scripting using JSON, modern JavaScript, and jQuery.
+
+The lab demonstrates how to create and structure JSON data, retrieve and display JSON information using the JavaScript `fetch()` API, and perform DOM manipulation and event handling using jQuery.
+
+## 2. Project Files
+
+| File | Description |
+|---|---|
+| `books.json` | Contains JSON data with two book objects, including their titles, authors, publication years, and genres. |
+| `books.html` | Uses JavaScript `fetch()` to retrieve and display information from `books.json`. |
+| `jquery-dom.html` | Demonstrates DOM manipulation and event handling using jQuery 4.0.0. |
+
+
+
+### 3. Steps
+
+1. Clone or download this repository to your computer.
+2. Open the project folder in Visual Studio Code.
+3. Install the Live Server extension if it is not already installed.
+4. To run Question 2, open `books.html` in Visual Studio Code.
+5. Right-click inside the editor and select **Open with Live Server**.
+6. The browser will display the book information retrieved from `books.json`.
+7. To run Question 3, open `jquery-dom.html`.
+8. Right-click inside the editor and select **Open with Live Server**.
+9. Test the three jQuery operations in the browser.
+
+**Note:** Use Live Server to run `books.html` because the JavaScript `fetch()` API requires a local development server to retrieve the JSON file.
+
+## 4. Lab Activities
+
+### Question 1 – Create and Structure JSON Data
+
+Created a valid JSON file named `books.json` containing two book objects with the required properties:
+- Title
+- Author
+- Publication year
+- Genres
+
+### Question 2 – Retrieve and Display JSON Data
+
+Used the JavaScript `fetch()` API to retrieve data from `books.json` and display:
+- The title of the first book.
+- The author of the second book.
+- The genres of both books, grouped by book title.
+
+Error handling was also implemented to handle unsuccessful requests or invalid JSON data.
+
+### Question 3 – Compare Native JavaScript and jQuery
+
+Implemented three DOM manipulation operations using jQuery:
+- `.text()` – Changes the text content of an HTML element.
+- `.addClass()` – Adds a
